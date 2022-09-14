@@ -17,7 +17,7 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
-Console.Write("Количество элементов массива");
+Console.Write("Количество элементов в массиве ");
 int size = Convert.ToInt32(Console.ReadLine());
 
 string[] arrayStrings = new string[size];
